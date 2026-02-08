@@ -106,8 +106,6 @@ Located in `src/json/`:
 - Strongly typed using shared interfaces from `types/`
 - Treated as immutable API responses to mirror real backend integration
 
-```
-
 ## 🧠 Business Logic & Utilities
 
 ### Insights Computation (`lib/insights.ts`)
@@ -130,7 +128,7 @@ This approach keeps components declarative and makes the logic easily testable o
 
 ---
 
-## ## 🧭 Assumptions & Trade-offs
+## 🧭 Assumptions & Trade-offs
 
 ### Assumptions
 
@@ -185,5 +183,7 @@ This approach keeps components declarative and makes the logic easily testable o
 - Perform accessibility improvements and WCAG compliance checks
 - Evaluate introducing lightweight global state management as the app scales
 - Add unit and integration tests for business logic and critical user flows
+
+```
 
 ```
