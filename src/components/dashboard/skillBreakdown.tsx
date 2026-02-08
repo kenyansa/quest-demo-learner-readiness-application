@@ -1,4 +1,4 @@
-import SkillRow from './SkillRow';
+import SkillRow from './skill/skill-row';
 import type { ReadinessSkill } from '../../types/readiness';
 
 interface SkillBreakdownProps {

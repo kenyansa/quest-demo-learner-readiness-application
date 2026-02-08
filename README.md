@@ -143,6 +143,7 @@ This approach keeps components declarative and makes the logic easily testable o
 - No global state management library (kept intentionally lightweight)
 - No real backend or persistence layer
 - Minimal animation to prioritize clarity and maintainability
+- Planned to use Recharts library for trend visualization, but opted for a simpler implementation due to scope
 
 ---
 
