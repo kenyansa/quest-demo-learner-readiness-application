@@ -1,10 +1,22 @@
-import { iconsRecord } from "../../../constants/icons-record";
+import { iconsRecord } from '../../../constants/icons-record';
 
 export default function AiInsightCard({ message }: { message: string }) {
   const Sparkles = iconsRecord.ai;
 
   return (
-    <div className="bg-violet-900 text-white rounded-xl shadow-sm p-3 md:p-4">
+    <div
+      className="
+        group
+        bg-violet-900 text-white
+        rounded-xl
+        p-3 md:p-4
+        cursor-pointer
+        hover:bg-violet-800
+        hover:shadow-md
+        active:translate-y-[1px] active:shadow-none
+        transition-all
+      "
+    >
       <div className="flex items-center gap-2">
         <div className="rounded-md bg-white/15 p-1.5">
           <Sparkles className="h-4 w-4" />
