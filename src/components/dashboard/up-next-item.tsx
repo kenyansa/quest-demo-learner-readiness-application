@@ -3,7 +3,6 @@ import { skillMeta } from '../../lib/skill-meta';
 import { colorPalette } from '../../lib/color-palette';
 import { formatDueDate } from '../../utils/utils';
 
-
 function getPill(activity: Activity) {
   if (activity.status === 'deadline') {
     return { label: 'Deadline', bg: `${colorPalette.dangerRed}20`, fg: colorPalette.dangerRed };
@@ -19,7 +18,6 @@ function getPill(activity: Activity) {
 }
 
 export default function UpNextItem({ activity }: { activity: Activity }) {
-  // const ArrowRight = iconsRecord.arrowRight;
   const meta = skillMeta[activity.skill];
   const pill = getPill(activity);
 
@@ -53,7 +51,7 @@ export default function UpNextItem({ activity }: { activity: Activity }) {
 
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-1.5 flex-wrap">
-            <p className="text-[13px] font-medium text-darkBlue truncate leading-snug">
+            <p className="text-[13px] font-medium text-violet-900 truncate leading-snug">
               {activity.title}
             </p>
 
@@ -65,18 +63,13 @@ export default function UpNextItem({ activity }: { activity: Activity }) {
             </span>
           </div>
 
-          <p className="text-[12px] text-greyBlue mt-0.5 leading-snug line-clamp-2">
+          <p className="text-[12px] text-slate-700 mt-0.5 leading-snug line-clamp-2">
             {activity.description}
           </p>
 
-          {metaText && (
-            <p className="text-[11px] text-greyBlue mt-1 leading-none">{metaText}</p>
-          )}
+          {metaText && <p className="text-[11px] text-slate-700 mt-1 leading-none">{metaText}</p>}
         </div>
       </div>
-
-      
     </div>
   );
 }
-

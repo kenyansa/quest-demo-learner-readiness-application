@@ -5,7 +5,7 @@ export function Avatar({ className, ...props }: React.HTMLAttributes<HTMLDivElem
   return (
     <div
       className={cn(
-        'relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full bg-grey2',
+        'relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full bg-slate-100',
         className
       )}
       {...props}

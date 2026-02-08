@@ -10,7 +10,7 @@ export function Progress({ value, className, ...props }: ProgressProps) {
 
   return (
     <div
-      className={cn('h-2 w-full rounded-full bg-grey2 overflow-hidden', className)}
+      className={cn('h-2 w-full rounded-full bg-slate-200 overflow-hidden', className)}
       {...props}
       role="progressbar"
       aria-valuemin={0}

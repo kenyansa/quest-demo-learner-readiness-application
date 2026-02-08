@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useRef, useState } from 'react';
 import logo from '../assets/logo.svg';
-import type { TopbarProps } from '../types/activity';
+import type { TopbarProps } from '../types/topbar';
 
 export default function Topbar({ learner, onLogout }: TopbarProps) {
   const [open, setOpen] = useState(false);

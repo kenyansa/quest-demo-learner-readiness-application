@@ -19,8 +19,8 @@ export default function SkillDetail() {
       <div className="p-4 space-y-4">
         <Card className="border border-slate-200/40 shadow-sm hover:shadow-md transition-all">
           <CardContent className="p-6 space-y-4">
-            <h1 className="text-lg font-semibold text-darkBlue">Skill not found</h1>
-            <p className="text-sm text-greyBlue">
+            <h1 className="text-lg font-semibold text-violet-700">Skill not found</h1>
+            <p className="text-sm text-slate-600">
               We couldn’t find that skill. Please go back to your dashboard.
             </p>
             <Button asChild className="w-full">
@@ -83,7 +83,7 @@ export default function SkillDetail() {
                 <li
                   key={a.id}
                   className="
-                    border border-grey2/30 rounded-lg p-3
+                    border border-slate-200/30 rounded-lg p-3
                     hover:bg-slate-50 shadow-sm hover:shadow-md
                     transition-all cursor-pointer
                   "

@@ -30,11 +30,13 @@ export default function UpNextCard({ activities }: UpNextCardProps) {
     <div className="bg-white rounded-xl shadow-sm p-3 space-y-3">
       <header className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Clock className="h-4 w-4 text-greyBlue" />
-          <h2 className="text-[13px] font-semibold text-darkBlue">Up next</h2>
+          <Clock className="h-4 w-4 text-slate-500" />
+          <h2 className="text-[13px] font-semibold text-violet-700">Up next</h2>
         </div>
 
-        <button className="text-[12px] font-medium text-navy hover:underline">View all</button>
+        <button className="text-[12px] font-medium text-violet-700 hover:underline">
+          View all
+        </button>
       </header>
 
       <div className="space-y-2">

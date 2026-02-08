@@ -9,8 +9,8 @@ export default function NotFound() {
       <Card className="w-full max-w-md">
         <CardContent className="p-6 space-y-4">
           <div className="space-y-1">
-            <h1 className="text-xl font-semibold text-darkBlue">Page not found</h1>
-            <p className="text-sm text-greyBlue">
+            <h1 className="text-xl font-semibold text-violet-700">Page not found</h1>
+            <p className="text-sm text-slate-600">
               The page you’re looking for doesn’t exist, or it may have moved.
             </p>
           </div>

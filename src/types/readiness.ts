@@ -34,5 +34,5 @@ export interface ReadinessData {
   learner: Learner;
   overallReadiness: OverallReadiness;
   skills: ReadinessSkill[];
-  insights: ReadinessInsights;
+  insights?: ReadinessInsights;
 }
