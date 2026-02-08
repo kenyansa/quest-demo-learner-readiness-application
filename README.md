@@ -4,11 +4,11 @@ A **mobile-first React + TypeScript dashboard** that visualizes learner readines
 
 ---
 
-## ✨ Features Overview
+## Features Overview
 
 - Readiness dashboard with score visualization and progress messaging
 - Skill breakdown with per-skill scoring
-- AI-generated insights derived from learner data
+- AI-generated insights derived from learner data (dummy)
 - “Up Next” activity recommendations
 - Centralized icon system
 - Modular UI components with clear separation of concerns
@@ -38,8 +38,10 @@ A **mobile-first React + TypeScript dashboard** that visualizes learner readines
 ### Installation
 
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone git@github.com:kenyansa/quest-demo-learner-readiness-application.git
+OR
+git clone https://github.com/kenyansa/quest-demo-learner-readiness-application.git
+cd quest-demo-learner-readiness-application
 npm install
 
 ```
@@ -91,7 +93,7 @@ Centralized routing configuration using React Router, including a fallback **Not
 
 ---
 
-## 📦 Dummy Data & Data Flow
+## Dummy Data & Data Flow
 
 ### Data Sources
 
@@ -106,7 +108,7 @@ Located in `src/json/`:
 - Strongly typed using shared interfaces from `types/`
 - Treated as immutable API responses to mirror real backend integration
 
-## 🧠 Business Logic & Utilities
+## Business Logic & Utilities
 
 ### Insights Computation (`lib/insights.ts`)
 
@@ -120,7 +122,7 @@ This approach keeps components declarative and makes the logic easily testable o
 
 ---
 
-## 🎨 Styling
+## Styling
 
 - Tailwind CSS with a global stylesheet (`globals.css`)
 - Neutral background color and full-height layout
@@ -128,7 +130,7 @@ This approach keeps components declarative and makes the logic easily testable o
 
 ---
 
-## 🧭 Assumptions & Trade-offs
+## Assumptions & Trade-offs
 
 ### Assumptions
 
@@ -144,7 +146,7 @@ This approach keeps components declarative and makes the logic easily testable o
 
 ---
 
-## 🔮 Extension Ideas
+## Extension Ideas
 
 ### Real API Integration
 
@@ -175,15 +177,3 @@ This approach keeps components declarative and makes the logic easily testable o
 - Chose patterns that support team growth and feature expansion while remaining appropriate for the interview scope
 
 ---
-
-## What I would do differently with more time
-
-- Replace local JSON mocks with real data fetching and caching (e.g. React Query or SWR)
-- Add loading, error, and empty states across all data-driven components
-- Perform accessibility improvements and WCAG compliance checks
-- Evaluate introducing lightweight global state management as the app scales
-- Add unit and integration tests for business logic and critical user flows
-
-```
-
-```
