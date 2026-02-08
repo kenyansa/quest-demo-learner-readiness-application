@@ -1,6 +1,7 @@
-import type { OverallReadiness } from "../../../types/readiness";
-import ProgressMessage from "../progress-message";
-import ReadinessRing from "../readiness-Ring";
+import TrendWave from '../../../assets/icons/Trendwave';
+import type { OverallReadiness } from '../../../types/readiness';
+import ProgressMessage from '../progress-message';
+import ReadinessRing from '../readiness-ring';
 
 interface ReadinessCardProps {
   overall: OverallReadiness;
@@ -13,8 +14,9 @@ export default function ReadinessCard({ overall }: ReadinessCardProps) {
     <div className="bg-white border border-slate-200 rounded-xl shadow-sm p-4 md:p-6">
       <div className="flex items-center justify-between">
         <h2 className="text-sm font-semibold text-slate-900">Readiness</h2>
-        <span className="text-xs rounded-full bg-emerald-50 text-emerald-700 px-2 py-1">
-          On track
+        <span className="inline-flex items-center gap-1.5 text-xs rounded-full bg-emerald-50 text-emerald-700 px-2 py-1">
+          <TrendWave className="h-3.5 w-3.5 text-emerald-600" />
+          <span>On track</span>
         </span>
       </div>
 

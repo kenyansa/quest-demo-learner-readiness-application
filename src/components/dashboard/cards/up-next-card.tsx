@@ -1,6 +1,6 @@
 import type { Activity } from '../../../types/activity';
 import { iconsRecord } from '../../../constants/icons-record';
-import UpNextItem from '../up-next-Item';
+import UpNextItem from '../up-next-item';
 
 interface UpNextCardProps {
   activities: Activity[];

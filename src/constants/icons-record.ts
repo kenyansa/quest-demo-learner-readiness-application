@@ -1,3 +1,4 @@
+import type { ComponentType, SVGProps } from 'react';
 import {
   LayoutDashboard,
   Map,
@@ -12,10 +13,12 @@ import {
   Sparkles,
   Clock,
   ArrowRight,
-  type LucideIcon,
 } from 'lucide-react';
+import TrendWave from '../assets/icons/Trendwave';
 
-export const iconsRecord: Record<string, LucideIcon> = {
+export type IconType = ComponentType<SVGProps<SVGSVGElement>>;
+
+export const iconsRecord: Record<string, IconType> = {
   dashboard: LayoutDashboard,
   journey: Map,
   activities: ClipboardList,
@@ -31,4 +34,5 @@ export const iconsRecord: Record<string, LucideIcon> = {
   ai: Sparkles,
   upNext: Clock,
   arrowRight: ArrowRight,
+  trendWave: TrendWave,
 };
