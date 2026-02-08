@@ -55,68 +55,6 @@ Application will be at: http://localhost:5175
 
 ---
 
-## 🧱 Project Structure
-
-src/
-├─ assets/
-│ └─ icons/
-├─ components/
-│ ├─ ui/
-│ │ ├─ avatar.tsx
-│ │ ├─ badge.tsx
-│ │ ├─ button.tsx
-│ │ ├─ card.tsx
-│ │ └─ progress.tsx
-│ ├─ dashboard/
-│ │ ├─ cards/
-│ │ │ ├─ ai-insights.tsx
-│ │ │ ├─ readiness.tsx
-│ │ │ └─ up-next.tsx
-│ │ ├─ skills/
-│ │ │ ├─ skill-breakdown.tsx
-│ │ │ └─ skill-row.tsx
-│ │ ├─ readiness-ring.tsx
-│ │ ├─ progress-message.tsx
-│ │ └─ up-next-item.tsx
-│ └─ not-found/
-│ └─ not-found.tsx
-├─ constants/
-│ └─ icons-record.ts
-├─ json/
-│ ├─ activities.json
-│ └─ readiness.json
-├─ layouts/
-│ ├─ app-layout.tsx
-│ ├─ mobile-nav.tsx
-│ ├─ sidebar.tsx
-│ └─ topbar.tsx
-├─ lib/
-│ ├─ skill-meta.ts
-│ ├─ color-palette.ts
-│ └─ insights.ts
-├─ pages/
-│ ├─ achievement.tsx
-│ ├─ activity.tsx
-│ ├─ dashboard.tsx
-│ ├─ journey.tsx
-│ ├─ skill-detail.tsx
-│ └─ profile.tsx
-├─ routes/
-│ └─ router.tsx
-├─ styles/
-│ └─ globals.css
-├─ types/
-│ ├─ activity.ts
-│ ├─ insight.ts
-│ ├─ progress.ts
-│ ├─ readiness.ts
-│ └─ topbar.ts
-└─ utils/
-├─ mock.ts
-└─ util.ts
-
----
-
 ## 🧩 UI & Component Architecture
 
 ### UI Primitives (`components/ui`)
@@ -167,17 +105,6 @@ Located in `src/json/`:
 - Imported via helper functions in `utils/mock.ts`
 - Strongly typed using shared interfaces from `types/`
 - Treated as immutable API responses to mirror real backend integration
-
-### Example Readiness Skill Shape
-
-```ts
-{
-  id: string;
-  label: string;
-  score: number;
-}
-
----
 
 ```
 
@@ -240,3 +167,23 @@ This approach keeps components declarative and makes the logic easily testable o
 
 - Memoization for derived and expensive computations
 - Code splitting at the route level
+
+## Why these architectural decisions?
+
+- Prioritized clarity, scalability, and maintainability over premature complexity
+- Separated UI primitives from feature-level components to encourage reuse and consistent styling
+- Extracted business logic (e.g. insight computation) into utility modules to keep components declarative
+- Clearly delineated layouts, pages, and routing to mirror real-world application scaling
+- Chose patterns that support team growth and feature expansion while remaining appropriate for the interview scope
+
+---
+
+## What I would do differently with more time
+
+- Replace local JSON mocks with real data fetching and caching (e.g. React Query or SWR)
+- Add loading, error, and empty states across all data-driven components
+- Perform accessibility improvements and WCAG compliance checks
+- Evaluate introducing lightweight global state management as the app scales
+- Add unit and integration tests for business logic and critical user flows
+
+```
