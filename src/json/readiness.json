@@ -1,0 +1,49 @@
+{
+  "learner": {
+    "id": "learner_001",
+    "name": "Amani K.",
+    "level": "Level 3 (Advanced)",
+    "estimatedCompletion": "2026-11-01"
+  },
+  "overallReadiness": {
+    "score": 72,
+    "status": "on_track",
+    "interpretation": "You are making great progress!",
+    "description": "Your overall readiness score indicates you are well-prepared for academic challenges. Continued engagement with career and entrepreneurship skills will help balance your profile."
+  },
+  "skills": [
+    {
+      "id": "academics",
+      "label": "Academics",
+      "score": 80,
+      "status": "strong",
+      "description": "Subject mastery, study habits, and academic discipline."
+    },
+    {
+      "id": "career_skills",
+      "label": "Career Skills",
+      "score": 60,
+      "status": "building",
+      "description": "Communication, teamwork, and workplace readiness."
+    },
+    {
+      "id": "life_skills",
+      "label": "Life Skills",
+      "score": 70,
+      "status": "on_track",
+      "description": "Personal responsibility, self-management, and resilience."
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "Entrepreneurship",
+      "score": 50,
+      "status": "needs_focus",
+      "description": "Problem solving, innovation, and business thinking."
+    }
+  ],
+  "insights": {
+    "strongestSkill": "academics",
+    "focusSkill": "entrepreneurship",
+    "message": "You are strongest in Academics. Focus next on Entrepreneurship to improve your overall readiness."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "activities": [
+    {
+      "id": "activity_101",
+      "title": "Business Model Canvas",
+      "skill": "entrepreneurship",
+      "durationMinutes": 15,
+      "status": "recommended",
+      "dueDate": null,
+      "description": "Learn how to map out a simple business idea using the Business Model Canvas."
+    },
+    {
+      "id": "activity_102",
+      "title": "Networking Basics",
+      "skill": "career_skills",
+      "durationMinutes": 10,
+      "status": "optional",
+      "dueDate": null,
+      "description": "Understand how to introduce yourself and build meaningful connections."
+    },
+    {
+      "id": "activity_103",
+      "title": "University Application Deadline",
+      "skill": "academics",
+      "durationMinutes": null,
+      "status": "deadline",
+      "dueDate": "2026-01-24",
+      "description": "Submit your university application before the deadline."
+    }
+  ]
+}
