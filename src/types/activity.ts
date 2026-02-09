@@ -1,5 +1,3 @@
-import type { Learner } from "./readiness";
-
 export type ActivityStatus = 'recommended' | 'optional' | 'deadline';
 
 export interface Activity {
@@ -12,7 +10,6 @@ export interface Activity {
   description: string;
 }
 
-export interface TopbarProps {
-  learner: Learner;
-  onLogout: () => void;
+export interface ActivitiesData {
+  activities: Activity[];
 }
