@@ -57,6 +57,10 @@ Application will be at: http://localhost:5175
 
 ---
 
+## 🎥 Project Walkthrough
+
+▶️ [Watch the 3–5 minute Loom walkthrough](https://www.loom.com/share/f481e7981d5745219f4f9cfd664a9a17)
+
 ## 🧩 UI & Component Architecture
 
 ### UI Primitives (`components/ui`)
