@@ -22,9 +22,9 @@ export function Button({
     'inline-flex items-center justify-center rounded-md font-medium transition focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
 
   const variants: Record<ButtonVariant, string> = {
-    primary: 'bg-violet-700 text-white hover:opacity-90 focus:ring-violet-700',
-    secondary: 'bg-slate-100 text-violet-700 hover:bg-slate-200 focus:ring-slate-300',
-    ghost: 'bg-transparent text-violet-700 hover:bg-slate-100 focus:ring-slate-300',
+    primary: 'bg-blue-900 text-white hover:opacity-90 focus:ring-blue-900/50',
+    secondary: 'bg-slate-100 text-blue-700 hover:bg-slate-200 focus:ring-slate-300',
+    ghost: 'bg-transparent text-blue-700 hover:bg-slate-100 focus:ring-slate-300',
   };
 
   const sizes: Record<ButtonSize, string> = {

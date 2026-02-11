@@ -9,14 +9,14 @@ export default function NotFound() {
       <Card className="w-full max-w-md">
         <CardContent className="p-6 space-y-4">
           <div className="space-y-1">
-            <h1 className="text-xl font-semibold text-violet-700">Page not found</h1>
+            <h1 className="text-xl font-semibold text-blue-900">Page not found</h1>
             <p className="text-sm text-slate-600">
               The page you’re looking for doesn’t exist, or it may have moved.
             </p>
           </div>
 
           <button
-            className="w-full rounded-md bg-violet-700 px-4 py-2 text-white"
+            className="w-full rounded-md bg-blue-900 px-4 py-2 text-white"
             onClick={() => navigate('/')}
           >
             Back to Dashboard
