@@ -17,7 +17,7 @@ A **mobile-first React + TypeScript dashboard** that visualizes learner readines
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **React + TypeScript**
 - **Vite**
@@ -28,7 +28,7 @@ A **mobile-first React + TypeScript dashboard** that visualizes learner readines
 
 ---
 
-## 🚀 Getting Started (Local Setup)
+## Getting Started (Local Setup)
 
 ### Prerequisites
 
@@ -61,7 +61,7 @@ Application will be at: http://localhost:5175
 
 ▶️ [Watch the 5 minute Loom walkthrough](https://www.loom.com/share/f481e7981d5745219f4f9cfd664a9a17)
 
-## 🧩 UI & Component Architecture
+## UI & Component Architecture
 
 ### UI Primitives (`components/ui`)
 
