@@ -7,11 +7,11 @@ export default function AiInsightCard({ message }: { message: string }) {
     <div
       className="
         group
-        bg-violet-900 text-white
+        bg-blue-900 text-white
         rounded-xl
         p-3 md:p-4
         cursor-pointer
-        hover:bg-violet-800
+        hover:bg-blue-800
         hover:shadow-md
         active:translate-y-[1px] active:shadow-none
         transition-all

@@ -11,7 +11,7 @@ export default function Dashboard() {
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 md:px-6 xl:px-8 space-y-5">
       <header className="space-y-0.5">
-        <h1 className="text-lg md:text-xl font-semibold text-violet-900">
+        <h1 className="text-lg md:text-xl font-semibold text-blue-900">
           Ready to take on the world?
         </h1>
 

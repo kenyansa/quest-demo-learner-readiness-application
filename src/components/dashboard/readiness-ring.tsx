@@ -29,7 +29,7 @@ export default function ReadinessRing({ value, size = 96, strokeWidth = 8 }: Rea
         strokeDasharray={circumference}
         strokeDashoffset={offset}
         strokeLinecap="round"
-        className="stroke-violet-900 transition-all duration-700 ease-out"
+        className="stroke-blue-900 transition-all duration-700 ease-out"
       />
     </svg>
   );

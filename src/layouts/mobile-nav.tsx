@@ -18,7 +18,7 @@ export default function MobileNav() {
               to={to}
               className={({ isActive }) =>
                 `flex flex-col items-center justify-center px-3 py-2 text-xs transition
-                 ${isActive ? 'text-violet-700' : 'text-slate-500 hover:text-violet-700'}`
+                 ${isActive ? 'text-blue-900' : 'text-slate-500 hover:text-blue-900'}`
               }
             >
               <Icon className="h-5 w-5 mb-1" />
